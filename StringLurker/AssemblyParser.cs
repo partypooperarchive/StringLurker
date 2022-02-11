@@ -65,6 +65,8 @@ namespace StringLurker
 			}
 			
 			w.WriteLine();
+			
+			w.Close();
 		}
 		
 		private bool IsExcelLoader(TypeDefinition t, out string excel_name) {
